@@ -1,0 +1,40 @@
+input{
+    margin:10px;
+    
+}
+body{
+    background-image:url("blue_nature.jpg");
+    background-repeat: no-repeat;
+    background-size:1400px 700PX;
+}
+form{
+    background-color:linen;
+   
+}
+input[type="submit"]
+{
+    background-image: linear-gradient(#AA336A,purple);
+    color: white;
+    width:100%;
+}
+.title1{
+    color:#AA336A ;
+    font-weight:bolder;
+}
+
+.form-control2{
+   
+    display: block;
+    border-radius: 5px;
+    border:2px;
+    border-style: inset;
+    width:225%;
+
+   
+}
+#row1{
+    margin-left: 40px;
+}
+input#u_name .form-control{
+    padding:0px 0px;
+}

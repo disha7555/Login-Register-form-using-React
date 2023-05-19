@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
 
+import './App.css';
+import React from 'react'
+
+import Login1 from './login1';
+import Register from './register';
 function App() {
+  const[registerval,setregisterval]=React.useState(true);
+  const isLogin=()=>{
+    setregisterval(false);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <>
+    {registerval?<Register isLogin={isLogin}/>:<Login1/>}
+    </>
   );
 }
-
 export default App;
