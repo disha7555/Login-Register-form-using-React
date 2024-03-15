@@ -41,7 +41,7 @@ function Register(props){
     return(
         <>
         <div class="content">
-        <div class="form_content" style={{height:'500px',width:'500px',marginLeft:'400px',marginTop:'200px'}}>
+        <div class="form_content" style={{height:'500px',width:'500px',marginLeft:'485px',marginTop:'200px'}}>
                     
                 
                     <form class="form-floating" style={{border:'5px solid white',padding:'20px',justifyContent:'center',alignItems:'center',borderRadius:'10px',boxShadow:'inset'}}>
