@@ -28,7 +28,7 @@ function Login1(){
     return(
         <>
         <div className="content">
-        <div className="form_content" style={{height:'500px',width:'500px',marginLeft:'400px',marginTop:'200px'}}>
+        <div className="form_content" style={{height:'500px',width:'500px',marginLeft:'485px',marginTop:'200px'}}>
                     
                 
                     <form className="form-floating" style={{border:'5px solid white',padding:'20px',justifyContent:'center',alignItems:'center',borderRadius:'10px',boxShadow:'inset'}}>
