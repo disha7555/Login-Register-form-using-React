@@ -3,7 +3,11 @@ input{
     
 }
 body{
+    width:100%;
+    height:88vh;
     background-image: linear-gradient(#71b7e6,purple);
+    background-size:cover;
+    overflow-y:hidden;
 }
 form{
     background-color: white;
